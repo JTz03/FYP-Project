@@ -1,4 +1,4 @@
-# 📌 Project Overview
+# Project Overview
 This repository contain my Degree Data Analytics Final Year Project Code:
 
 📈 Enhancing Stock Forecast Accuracy via AI-Driven Financial Sentiment Analysis
@@ -16,7 +16,7 @@ The project covers:
 - Deployment via a Streamlit
 
 
-# 🧠 Models Used
+# Models Used
 
 - FinBERT (Transformer-based financial sentiment model) 
 - LSTM
@@ -31,25 +31,25 @@ Resampling strategies:
 - Random Under-Sampling (RUS)
 - Class-weighted loss
 
-# 📊 Dataset
+# Dataset
 
 Due to GitHub file size limitations, full datasets are hosted externally.
 
-🔗 Dataset (Hugging Face):
-👉 https://huggingface.co/datasets/JohnTz/FYP_Dataset
+Dataset (Hugging Face):
+https://huggingface.co/datasets/JohnTz/FYP_Dataset
 
 The datasets include:
 - Financial news articles 
 - Twitter financial sentiment data
 
-# 🤖 Trained Models
+# Trained Models
 
 Final trained models are hosted externally to comply with GitHub storage constraints.
 
-🔗 FinBERT Models (Hugging Face):
-👉 https://huggingface.co/JohnTz/FYP_Model
+FinBERT Models (Hugging Face):
+https://huggingface.co/JohnTz/FYP_Model
 
-# ⚙️ Environment Setup
+# Environment Setup
 1️⃣ Create Virtual Environment (Optional)
 
 	python -m venv venv
@@ -83,7 +83,7 @@ python app.py
 
 		streamlit run app.py
 
-# 📈 Results & Evaluation
+# Results & Evaluation
 
 Model performance is evaluated using:
 - Accuracy
@@ -93,19 +93,19 @@ Model performance is evaluated using:
 
 Final evaluation results are stored as summary metrics, not raw checkpoints.
 
-# 📝 Notes on Reproducibility
+# Notes on Reproducibility
 - Logs are excluded due to size constraints.
 - All experiments are fully reproducible using the provided notebooks.
 - Random seeds are fixed where applicable to ensure consistent results.
 
-# 🎓 Academic Note
+# Academic Note
 
 This repository follows industry-standard machine learning practices, where:
 - Source code is version-controlled
 - Large datasets and trained models are stored in dedicated artifact repositories
 - Experimental methodology and results remain transparent and reproducible
 
-# 👨‍🎓 Author
+# Author
 
 Tan Wei Ming
 
@@ -113,6 +113,6 @@ Final Year Project (FYP)
 
 Bachelor of Computer Science Specialism With Data Analytics
 
-# 📜 License
+# License
 
 This project is for academic and research purposes only.
